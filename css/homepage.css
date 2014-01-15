@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+	color: #0d2d6e;
+	font-family: 'Open Sans', sans-serif;
+}
+
+p.describe {
+	max-width:70%;
+}
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -71px; /* the bottom margin is the negative value of the footer's height */
+}
+
+.blueBar {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+	height:15px;
+	background-color: #009ad9;
+	margin-bottom: 20px;
+}
+
+.instruct {
+	font-weight: bold;
+	text-align: center;
+	font-size:120%;
+}
+
+.inlineValidate {
+	width:90%;
+	display:inline;
+}
+
+.footer, .push {
+	height: 71px; /* .push must be the same height as .footer */
+}
+
+/* New styles below */
+
+label.valid {
+  width: 24px;
+  height: 24px;
+  background: url(../assets/images/valid.png) center center no-repeat;
+  text-indent: -9999px;
+}
+label.error {
+	font-weight: bold;
+	color: red;
+	padding: 2px 8px;
+	margin-top: 2px;
+}

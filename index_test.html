@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Beyond Local - Making the most of the move to Mobile</title>
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Latest compiled and minified Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<!--google font-->
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans">
+	<!--custom styles for homepage -->
+	<link href="css/homepage.css" rel="stylesheet">
+	
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.2.0/respond.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+	<div class="wrapper">
+		<!--blue top border -->
+	  <div class="blueBar">
+	  </div>  
+	  
+	  <div class="row text-center">
+		  <img src="assets/images/holding-page_logo.gif" alt="Beyond Local Ltd" height="77px" width="389px" />
+	  </div>
+		
+		<div class="container">
+			<!--intro text-->
+			<p style="margin: 30px auto; width:75%">Beyond Local is a new company based in Sevenoaks that believes consumer and business usage of the internet is fundamentally changing. Already the majority of internet searches done for local goods and services are done on a tablet or a smartphone and in 2014 more internet purchases will be made using mobile rather than desktop computers. Our aim is to help local businesses make the most of the move to mobile.</p>
+			<p class="instruct">
+				Please fill in the form below so that we can find out what you are interested in and get in touch!<br /><br />
+			</p>
+			<!-- bootstrap horizontal form -->
+			<form class="form-horizontal" role="form" method="post" action="send_form_email.php" id="contact-form">
+				<div class="form-group">
+					<label for="first_name" class="col-md-4 control-label">First Name *</label>
+					<div class="col-md-5">
+						<input type="text" class="form-control inlineValidate" id="first_name" name="first_name">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="last_name" class="col-md-4 control-label">Last Name *</label>
+					<div class="col-md-5">
+						<input type="text" class="form-control inlineValidate" id="last_name" name="last_name">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="email" class="col-md-4 control-label">Email Address *</label>
+					<div class="col-md-5">
+						<input type="email" class="form-control inlineValidate" name="email" id="email">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="telephone" class="col-md-4 control-label">Telephone</label>
+					<div class="col-md-5">
+						<input type="text" class="form-control inlineValidate" id="telephone" name="telephone">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="comments" class="col-md-4 control-label">Comments *</label>
+					<div class="col-md-5">
+						<textarea rows="3" class="form-control inlineValidate" name="comments" id="comments"></textarea>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-md-offset-7 col-md-5">
+						<input type="submit" class="btn btn-primary" value="Submit"/>
+					</div>
+				</div>
+			</form>
+		</div><!--end wrapper div -->
+		
+		<!--required for fixed footer-->
+		<div class="push"></div>
+		
+	</div><!--end container div -->
+	
+	<!--fixed footer-->
+    <div id="footer">
+	  <div class="row text-center" style="background-color:#009ad9;height:71px;">
+		  <img src="assets/images/holding-page_bottom-logo.gif" height="51px" width="383px" style="margin:10px"/>
+	  </div>
+    </div>
+	
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+	<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+	<script src="js/homepage_validation.js"></script>
+	<script>
+	$(document).ready(function(){
+	$("#first_name").validate();
+	});
+	</script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	
+  </body>
+</html>

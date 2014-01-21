@@ -1,101 +1,149 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Beyond Local - Making the most of the move to Mobile</title>
-	
+    <title>Contact Beyond Local Ltd</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Latest compiled and minified Bootstrap CSS -->
-	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 	<!--google font-->
-	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans">
-	<!--custom styles for homepage -->
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=News+Cycle">
 	<link href="css/homepage.css" rel="stylesheet">
-	
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
-      <script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.2.0/respond.js"></script>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
   </head>
   <body>
-	<div class="wrapper">
-		<!--blue top border -->
-	  <div class="blueBar">
-	  </div>  
-	  
-	  <div class="row text-center">
-		  <img src="assets/images/holding-page_logo.gif" alt="Beyond Local Ltd" height="77px" width="389px" />
-	  </div>
+	<!-- Begin Header -->
+	<div class="header">
+		<div id="logo_top_left">
+			<a href="/index.html">
+				<img src="assets/images/BL_logo.png" width="200" height="72" alt="BL Logo">
+			</a>
+		</div>
+		<div id="thumbs_top_right">
+			<a href="https://twitter.com/beyondlocal_">
+				<img src="assets/images/icon_twitter_bk.png" width="27" height="27" alt="Icon Twitter Bk" class="sm_logo">
+			</a>
+			<a href="https://www.facebook.com/beyondlocal">
+				<img src="assets/images/icon_fb_bk.png" width="27" height="27" alt="Icon Fb Bk" class="sm_logo">
+			</a>
+			<!--<a href="https://plus.google.com/u/1/communities/114492011417902177933">
+				<img src="assets/images/icon_google_bk.png" width="27" height="27" alt="Icon Google Bk" class="sm_logo">
+			</a>-->
+		</div>
+	</div>
+	<!-- End Header -->
+	<!-- Begin Main Image -->
+	<div id="mainImg" class="clearfix">
+		<img src="assets/images/hero_pic.png" class="img-responsive" alt="Responsive image">
+	</div>
+	<!-- End Main Image -->
+	
+	<!-- Begin Blurb-->
+	<div class="container" style="text-align:center">
+			<span class="boldBlockText">We want to help your business look good online!</span>
+			It is an increasingly mobile world. Already the majority of internet searches are made from mobile devices and in 2014 so will the number of purchases made online.We want to help your business make the most of this move to mobile and ensure that your website looks great on any device.
+	</div>
+	<!-- End Blurb -->
+	<!-- Start Form -->
+	<div class ="enquiryFrm">
+
+		<p style="text-align:center">
+			<span class="boldText">If you'd like to hear more please fill in the form below so we can get in touch.</span>
+		</p>
 		
-		<div class="container">
-			<!--intro text-->
-			<p style="margin: 30px auto; width:75%">Beyond Local is a new company based in Sevenoaks that believes consumer and business usage of the internet is fundamentally changing. Already the majority of internet searches done for local goods and services are done on a tablet or a smartphone and in 2014 more internet purchases will be made using mobile rather than desktop computers. Our aim is to help local businesses make the most of the move to mobile.</p>
-			<p class="instruct">
-				Please fill in the form below so that we can find out what you are interested in and get in touch!<br /><br />
-			</p>
-			<!-- bootstrap horizontal form -->
-			<form class="form-horizontal" role="form" method="post" action="send_form_email.php" id="contact-form">
-				<div class="form-group">
-					<label for="first_name" class="col-md-4 control-label">First Name *</label>
-					<div class="col-md-5">
-						<input type="text" class="form-control inlineValidate" id="first_name" name="first_name">
-					</div>
+		<form class="form-horizontal" role="form" method="post" action="send_form_email.php" id="contact-form">
+			<div class="form-group">
+				<label for="first_name" class="col-sm-4 control-label">First name *</label>
+				<div class="col-sm-5">
+					<input type="text" class="form-control inlineValidate" id="first_name" name="first_name" placeholder="First name">
 				</div>
-				<div class="form-group">
-					<label for="last_name" class="col-md-4 control-label">Last Name *</label>
-					<div class="col-md-5">
-						<input type="text" class="form-control inlineValidate" id="last_name" name="last_name">
-					</div>
+			</div>
+			<div class="form-group">
+				<label for="last_name" class="col-sm-4 control-label">Last name *</label>
+				<div class="col-sm-5">
+					<input type="text" class="form-control inlineValidate" id="last_name" name="last_name" placeholder="Last name">
 				</div>
-				<div class="form-group">
-					<label for="email" class="col-md-4 control-label">Email Address *</label>
-					<div class="col-md-5">
-						<input type="email" class="form-control inlineValidate" name="email" id="email">
-					</div>
+			</div>
+			<div class="form-group">
+				<label for="email" class="col-sm-4 control-label">Email address *</label>
+				<div class="col-sm-5">
+					<input type="email" class="form-control inlineValidate" name="email" id="email" placeholder="Email address">
 				</div>
-				<div class="form-group">
-					<label for="telephone" class="col-md-4 control-label">Telephone</label>
-					<div class="col-md-5">
-						<input type="text" class="form-control inlineValidate" id="telephone" name="telephone">
-					</div>
+			</div>
+			<div class="form-group">
+				<label for="telephone" class="col-sm-4 control-label">Telephone</label>
+				<div class="col-sm-5">
+					<input type="text" class="form-control inlineValidate" id="telephone" name="telephone">
 				</div>
-				<div class="form-group">
-					<label for="comments" class="col-md-4 control-label">Comments *</label>
-					<div class="col-md-5">
-						<textarea rows="3" class="form-control inlineValidate" name="comments" id="comments"></textarea>
-					</div>
+			</div>
+			<div class="form-group">
+				<label for="comments" class="col-sm-4 control-label">Comments *</label>
+				<div class="col-sm-5">
+					<textarea rows="3" class="form-control inlineValidate" name="comments" id="comments" placeholder="Your Message"></textarea>
 				</div>
-				<div class="form-group">
-					<div class="col-md-offset-7 col-md-5">
-						<input type="submit" class="btn btn-primary" value="Submit"/>
-					</div>
+			</div>
+			<div class="form-group">
+				<div class="col-sm-offset-8">
+					<input type="submit" class="btn btn-custom" value="Submit"/>
 				</div>
-			</form>
-		</div><!--end wrapper div -->
-		
-		<!--required for fixed footer-->
-		<div class="push"></div>
-		
-	</div><!--end container div -->
+			</div>
+		</form>
+	</div>
+	<!-- End Form -->
+
+	<!--required for fixed footer-->
+	<div class="push"></div>
+
 	
 	<!--fixed footer-->
-    <div id="footer">
-	  <div class="row text-center" style="background-color:#009ad9;height:71px;">
-		  <img src="assets/images/holding-page_bottom-logo.gif" height="51px" width="383px" style="margin:10px"/>
-	  </div>
+    <div class="footer">
+		<div id="logo_btm_left">
+			<a href="/index.html">
+				<img src="assets/images/BL_logo_footer.png" width="200" height="72" alt="BL Logo">
+			</a>
+		</div>
+		<div id="thumbs_btm_right">
+			<a href="https://twitter.com/beyondlocal_">
+				<img src="assets/images/icon_twitter_wh.png" width="27" height="27" alt="Icon Twitter Bk" class="sm_logo">
+			</a>
+			<a href="https://www.facebook.com/beyondlocal">
+				<img src="assets/images/icon_fb_wh.png" width="27" height="27" alt="Icon Fb Bk" class="sm_logo">
+			</a>
+			<!--<a href="https://plus.google.com/u/1/communities/114492011417902177933">
+				<img src="assets/images/icon_google_wh.png" width="27" height="27" alt="Icon Google Bk" class="sm_logo">
+			</a>-->
+		</div>
     </div>
-	
+
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="http://code.jquery.com/jquery.js"></script>
-	<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
-	<script src="js/homepage_validation.js"></script>
-	<script>
-	$(document).ready(function(){
-	$("#first_name").validate();
+  	<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+  	<script src="js/homepage_validation.js"></script>
+  	<script>
+  	$(document).ready(function(){
+  	$("#first_name").validate();
+  	});
+  	//open all external link on new tab
+	$('a').each(function() {
+	   var a = new RegExp('/' + window.location.host + '/');
+	   if(!a.test(this.href)) {
+	       $(this).click(function(event) {
+	           event.preventDefault();
+	           event.stopPropagation();
+	           window.open(this.href, '_blank');
+	       });
+	   }
 	});
-	</script>
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
-	
+  	</script>
+  	<!-- Latest compiled and minified JavaScript -->
+  	<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>

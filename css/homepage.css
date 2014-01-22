@@ -8,19 +8,25 @@ html, body {height: 100%;color: #000000;font-family: 'News Cycle', sans-serif;fo
 .boldBlockText{display:block;font-size:1.75em;margin:5px 0;}
 .boldText{display:block;font-size:1.1em;margin:5px 0;}
 .clearfix {clear:both;}
-.sm_logo {margin:47px 10px 0 0;}
+.sm_logo {margin:49px 5px 0 0;}
+
 
 /*header*/
-.header #logo_top_left {float:left;width:250px;height:72px;margin:10px;}
-.header #thumbs_top_right {float:right;height:72px;margin-right: 10px;}
+.header #logo_top_left {float:left;width:200px;height:72px;margin:10px;}
+.header #thumbs_top_right {float:right;height:72px;margin-right: 3vw;}
 /*footer*/
 .footer {background-color:#d9d9d9;height:92px;}
-.footer #logo_btm_left {float:left;width:250px;height:72px;margin:10px;}
-.footer #thumbs_btm_right {float:right;height:72px;margin-right: 10px;}
+.footer #logo_btm_left {float:left;width:200px;height:72px;margin:10px;}
+.footer #thumbs_btm_right {float:right;height:72px;margin-right: 3vw;}
+
+/*banner image*/
+figure {position: relative;}
+figcaption {position:absolute;color:#fff;bottom:25%;left:5vw;right:0;margin:0;font-size:200%;width:70vw;line-height: 0.9}
 
 /*forms*/
-.enquiryFrm{background-color:#f5f5f5;margin-top: 20px;padding: 1vh 1vw}
-#contact-form{width:99%;}
+.enquiryFrm{background-color:#f5f5f5;margin-top: 20px;}
+#contact-form{width:95%;padding:10px;}
+
 .btn-custom {
   font-size: 1em;
   font-weight:bold;
@@ -38,6 +44,7 @@ html, body {height: 100%;color: #000000;font-family: 'News Cycle', sans-serif;fo
   color: #fff !important;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.39);
   -webkit-font-smoothing: antialiased;
+  margin-left: 15px;
 }
 
 /*validation*/
